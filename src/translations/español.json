@@ -1,0 +1,16 @@
+{
+    "APP_NAME": "Hds-Rocket",
+    "About": "Sobre Mi",
+    "Hello world !": "Hola mundo !",
+    "Home": "Inicio",
+    "Logged in as": "Ingresó como",
+    "Login": "Ingresar",
+    "Logout": "Salir",
+    "Password": "Contraseña",
+    "Password is required": "La contraseña es requerida",
+    "Username": "Usuario",
+    "Username is required": "El nombre de usuario es requerido",
+    "Username or password incorrect.": "Usuario o contraseña incorrecta.",
+    "Remember me": "Recordarme",
+    "Version": "Version"
+}
