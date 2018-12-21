@@ -10,19 +10,18 @@ type User = {
   providedIn: 'root'
 })
 export class StorageService {
-
-  constructor(protected localStorage: LocalStorage) { }
+  constructor(protected localStorage: LocalStorage) {}
 
   add() {
     let user: User = { firstName: 'Henri', lastName: 'Bergson' };
-    this.localStorage.setItem('user', user).subscribe(() => { });
+    this.localStorage.setItem('user', user).subscribe(() => {});
   }
 
-  delete(){
+  delete() {
     this.localStorage.removeItem('user').subscribe(() => {});
   }
 
-  read(){
+  read() {
     this.localStorage.getItem<User>('user').subscribe((user: User) => {
       user.firstName; // should be 'Henri'
     });

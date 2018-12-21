@@ -1,10 +1,151 @@
 <div class="container-fluid">
-  <div class="jumbotron text-center">
-    <h1>
-      <span translate>APP_NAME</span>
-    </h1>
-    <p>
-      <i class="far fa-bookmark"></i> <span translate>Version</span> {{version}}
-    </p>
+  <div class="row">
+    <div class="col-2" align="center">
+      <img src="https://via.placeholder.com/250" alt="..." class="img-thumbnail" />
+
+      <blockquote class="quote-box">
+        <p class="quotation-mark">"</p>
+        <p class="quote-text">Yo soy un hombre Valiente, Amoroso y Comprometido.</p>
+        <hr />
+        <div class="blog-post-actions">
+          <p class="blog-post-bottom pull-left">Hernan De Souza</p>
+          <!-- <p class="blog-post-bottom pull-right">
+            <span class="badge quote-badge">896</span>  ❤
+          </p> -->
+        </div>
+      </blockquote>
+
+      <div class="card">
+        <div class="card-body" style="text-align: left;">
+          <h5 class="card-title">Comunidad</h5>
+          <div>
+            18/12/18 Coloquio <br />
+            2/2/19 Egreso equipo 18
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <h1 class="display-4">Guillermo Hernan De Souza</h1>
+
+            <div class="card">
+              <div class="card-body">
+                <dl class="row">
+                  <dt class="col-sm-2">Equipo</dt>
+                  <dd class="col-sm-10">18</dd>
+
+                  <dt class="col-sm-2">Email</dt>
+                  <dd class="col-sm-10"><a href="mailto:desouza030689@gmail.com"> desouza030689@gmail.com </a></dd>
+
+                  <dt class="col-sm-2">DNI</dt>
+                  <dd class="col-sm-10">34554133</dd>
+
+                  <dt class="col-sm-2">Direccion</dt>
+                  <dd class="col-sm-10">Tres Arroyos 2927</dd>
+
+                  <dt class="col-sm-2">Telefono</dt>
+                  <dd class="col-sm-10">20878702</dd>
+
+                  <dt class="col-sm-2">Celular</dt>
+                  <dd class="col-sm-10">1124570900</dd>
+
+                  <dt class="col-sm-2">Inicio N. Arrancar</dt>
+                  <dd class="col-sm-10">11/11/11</dd>
+
+                  <dt class="col-sm-2">Inicio N. Aprender</dt>
+                  <dd class="col-sm-10">30/11/11</dd>
+
+                  <dt class="col-sm-2">Inicio N. Aplicar</dt>
+                  <dd class="col-sm-10">01/12/11</dd>
+
+                  <dt class="col-sm-2">Enrolador</dt>
+                  <dd class="col-sm-10"><a href="#"> Camila Tejada</a></dd>
+                </dl>
+              </div>
+            </div>
+
+            <br />
+
+            <ngb-accordion #acc="ngbAccordion">
+              <ngb-panel id="toggle-1" title="Participantes de tu equipo">
+                <ng-template ngbPanelContent>
+                  <ul class="list-unstyled">
+                    <li><a href="#">Participante 1</a></li>
+                    <li><a href="#">Participante 2</a></li>
+                    <li><a href="#">Participante 3</a></li>
+                    <li><a href="#">Participante 4</a></li>
+                    <li><a href="#">Participante 5</a></li>
+                  </ul>
+                </ng-template>
+              </ngb-panel>
+            </ngb-accordion>
+          </div>
+          <div class="col-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Contactos:</h5>
+                <ul class="list-unstyled">
+                  <li>Entrenador: <a href="#">Alejandra</a></li>
+                  <li>Staff: <a href="#">Naty</a></li>
+                  <li>Staff: <a href="#">Teffi</a></li>
+                  <li>Staff: <a href="#">Eli</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <br />
+
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Pagos:</h5>
+                <ul class="list-unstyled">
+                  <li>N. Arrancar: Saldado</li>
+                  <li>N. Aprender: Saldado</li>
+                  <li>N. Aplicar: Saldado</li>
+                </ul>
+              </div>
+            </div>
+
+            <br />
+
+            <div class="card">
+              <div class="card-body">
+                <div class="container-fluid progress-widget">
+                  <div class="row">
+                    <!-- <div class="col" align="center">
+                          <p class="h2">Arrancar</p>
+                          <ngb-progressbar type="success" [value]="100"></ngb-progressbar>
+                          <div>
+                            <i class="fas fa-calendar-check"></i>
+                            <p class="h5">11/11/18</p>
+                          </div>
+                        </div>
+                        <div class="col" align="center">
+                          <p class="h2">Aprender</p>
+                          <ngb-progressbar type="success" [value]="100"></ngb-progressbar>
+                          <div>
+                            <i class="fas fa-calendar-check"></i>
+                            <p class="h5">11/11/18</p>
+                          </div>
+                        </div> -->
+                    <div class="col" align="center">
+                      <p class="h2">Aplicar</p>
+                      <ngb-progressbar type="success" [value]="33"></ngb-progressbar>
+                      <div>
+                        <i class="fas fa-calendar"></i>
+                        <p class="h5">11/11/18</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
